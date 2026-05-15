@@ -1,0 +1,59 @@
+ body{
+    background-image:url( https://img.ipl.com/upload/20251003/8e9b9862c77dc2a71290f62d5fa220ae.jpg); 
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment:fixed;
+ }
+
+
+
+.navbar-container{
+    display: flex;
+    background-color: aquamarine;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.img-container img,img{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    align-items: center;
+}
+
+.nav-links{
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+}
+
+.profile-container{
+    display: flex;
+    align-items: center;
+}
+
+.profile-container input{
+    height: 40px;
+    width: 200px;
+    border-radius: 30px;
+}
+ 
+@media(max-width:759px){
+
+.navbar-container{
+    display: flex;
+    flex-direction: column;
+    background-color: blue;
+
+}
+}
+
+@media(max-width:450px){
+  .navbar-container{
+   background-color: red;
+   color: white;
+
+}
+
+}
+ 
